@@ -83,10 +83,10 @@ fun BookmarksScreen(
                             onCartStateChanged(product.id)
                         },
                         onChangeBookmarkState = { onBookmarkStateChanged(product.id) },
-                        image = product.image,
+                        image = product.test,
                     )
                 }
             }
         }
     }
-}
+}   
