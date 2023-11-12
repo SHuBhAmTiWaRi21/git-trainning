@@ -87,9 +87,6 @@ fun BookmarksScreen(
                     )
                 }
             }
-            is UiState.Error -> {
-                /** An error occur */
-            }
         }
     }
 }
